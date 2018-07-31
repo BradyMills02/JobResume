@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 * {
     box-sizing: border-box;
-    overflow: hidden;
 }
 html {
-    background: url(http://1.bp.blogspot.com/-olGHQWTmk3A/T0tZVSU3CDI/AAAAAAAABbA/EgjurSou6_Q/s1600/12.jpg);
+    background: #202529;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 body {
     width: 100%;
@@ -18,22 +21,22 @@ body {
     padding: 1%;
 }
 .nav-item a {
-    font-size: 5vw;
-    color: black;
+    font-size: 2vw;
+    color: #FF8C12;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .nav-item a:hover {
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 2%;
-    background-color: grey;
+    background-color: #32383D;
 }
 .nav-item .active {
-    background-color: black;
+    background-color: #FF8C12;
     color: white;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 2%;
 }
 .align-center {
@@ -44,10 +47,12 @@ body {
     height: 85%;
 }
 .header {
-    font-size: 55px;
+    font-size: 3vw;
     padding: 1% 5%;
     text-align: center;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(50, 56, 61, 1);
+    font-family: 'Raleway', sans-serif;
+    color: white;
 }
 .under-header {
     display: grid;
@@ -64,18 +69,27 @@ body {
     grid-gap: 10%;
 }
 .under-header a {
-    color: black;
+    color: white;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 5px;
+    background: #FF8C12;
+    font-family: 'Raleway', sans-serif;
 }
 .col2 a:hover {
-    background-color: black;
+    background-color: #4C555C;
     color: white;
 }
 .card {
-    background-color: grey;
+    background-color: rgba(50, 56, 61, 1);
     padding: 3%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.card h1 {
+    font-size: 2.5vw;
+    color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .progress-bar {
@@ -94,9 +108,16 @@ body {
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     transition: width .4s ease-in-out;
     text-align: left;
+    color: #000;
 }
 .blue span {
     background-color: #34c2e3;
+}
+.green span {
+    background-color: #00a814;
+}
+.red span {
+    background-color: red;
 }
 .glow span {
     box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
