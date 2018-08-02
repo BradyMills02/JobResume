@@ -37,11 +37,12 @@ body {
     padding: 2%;
 }
 .align-center {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     height: 85%;
+    width: 100%;
 }
 .header {
     font-size: 3vw;
@@ -83,6 +84,7 @@ body {
     padding: 3%;
     color: white;
     font-family: 'Raleway', sans-serif;
+    width: 60%;
 }
 .card h1 {
     font-size: 45px;
