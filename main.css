@@ -52,6 +52,10 @@ body {
     font-family: 'Raleway', sans-serif;
     color: white;
 }
+.header img {
+    display: grid;
+    border: 2px solid black;
+}
 .under-header {
     display: grid;
     grid-column-gap: 30px;
