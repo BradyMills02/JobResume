@@ -54,7 +54,17 @@ body {
 }
 .header img {
     display: grid;
-    border: 2px solid black;
+    justify-content: center;
+}
+.header h1{
+    margin: 5%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
 }
 .under-header {
     display: grid;
