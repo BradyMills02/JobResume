@@ -93,6 +93,7 @@ body {
 }
 
 .progress-bar {
+    display: grid;
     background-color: #1a1a1a;
     height: 25px;
     padding: 2px;
