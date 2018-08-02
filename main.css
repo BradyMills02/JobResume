@@ -37,11 +37,12 @@ body {
     padding: 2%;
 }
 .align-center {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     height: 85%;
+    width: 100%;
 }
 .header {
     font-size: 3vw;
@@ -68,8 +69,6 @@ body {
 .under-header a {
     color: white;
     text-decoration: none;
-    border: 2px solid black;
-    border-radius: 5px;
     background: #FF8C12;
     font-family: 'Raleway', sans-serif;
 }
@@ -83,6 +82,7 @@ body {
     padding: 3%;
     color: white;
     font-family: 'Raleway', sans-serif;
+    width: 60%;
 }
 .card h1 {
     font-size: 45px;
@@ -96,7 +96,7 @@ body {
     height: 25px;
     padding: 2px;
     width: 100%;
-    margin: 50px 0;
+    margin: 5% 0;
     border-radius: 5px;
     box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
 }
