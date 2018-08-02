@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 html {
+    display: grid;
     background: #202529;
     background-repeat: no-repeat;
     background-size: cover;
