@@ -82,6 +82,7 @@ body {
     color: white;
 }
 .card {
+    display: grid;
     background-color: rgba(50, 56, 61, 1);
     padding: 3%;
     color: white;
