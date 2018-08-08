@@ -93,7 +93,7 @@ body {
 .card {
     display: grid;
     background-color: rgba(50, 56, 61, 1);
-    padding: 3%;
+    padding: 10%;
     color: white;
     font-family: 'Raleway', sans-serif;
     width: 60%;
@@ -103,7 +103,6 @@ body {
     color: white;
     font-family: 'Raleway', sans-serif;
 }
-
 .progress-bar {
     display: grid;
     background-color: #1a1a1a;
@@ -140,4 +139,53 @@ body {
     0% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;}
     50% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;}
     100% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;}
+}
+
+@media only screen and (max-width: 500px){
+    .header {
+        width: 70%;
+        font-size: 5vw;
+        padding: 5%;
+        text-align: center;
+        background-color: rgba(50, 56, 61, 1);
+        font-family: 'Raleway', sans-serif;
+        color: white;
+    }
+    .header img{
+        display: grid;
+        width: 50%;
+        height: 50%;
+    }
+    .card{
+        display: grid;
+        width: 80%;
+        padding: 10%;
+        align-items: center;
+    }
+    .card h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .card p {
+        font-size: 12px;
+    }
+    .card h3 {
+        font-size: 15px;
+    }
+    .progress-bar{
+        display: grid;
+        width: 100%;
+        height: 70%;
+    }
+    .progress-bar span {
+        display: block;
+        height: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+        transition: width .4s ease-in-out;
+        text-align: left;
+        color: #000;
+        font-size: 12px;
+    }
 }
