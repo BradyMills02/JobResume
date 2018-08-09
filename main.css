@@ -29,6 +29,7 @@ body {
 .nav-item a:hover {
     padding: 2%;
     background-color: #32383D;
+    color: #FF8C12;
 }
 .nav-item .active {
     background-color: #FF8C12;
@@ -109,10 +110,10 @@ body {
     color: white;
     font-family: 'Raleway', sans-serif;
     width: 45%;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 .card1 h1 {
-    font-size: 25px;
+    font-size: 45px;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
