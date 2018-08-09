@@ -187,13 +187,16 @@ body {
     .card h1 {
         display: flex;
         justify-content: center;
-        font-size: 25px;
+        font-size: 18px;
     }
     .card p {
-        font-size: 12px;
+        font-size: 11px;
     }
     .card1 h3 {
-        font-size: 15px;
+        font-size: 13px;
+    }
+    .card1 h2 {
+        font-size: 13px;
     }
     .progress-bar{
         display: grid;
